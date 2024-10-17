@@ -1,4 +1,10 @@
 {
+  "main": "./server.js",
+  "scripts": {
+    "build": "npm install",
+    "dev": "nodemon",
+    "start": "node server.js"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
